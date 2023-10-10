@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+/* First Section container */
+
+.container{
+    width: 100%;
+    height: 95vh;
+    background-image: url("Resources/background-image.jpg");
+    background-color: rgba(0, 0, 0, 0.7);
+    background-size: cover;
+    background-blend-mode:darken;
+}
+
+/* First Section container head */
+
+.head{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 20px;
+}
+
+/* First Section logo*/
+
+.container .head img{
+    width: 162px;
+    max-width: 100%;
+}
+
+/* Language buttons */
+
+.container .head .nexttologo{
+    display: flex;
+    align-items: center;
+}
+.container .head .language{
+    width: 127px;
+    height: 32px;
+    margin-right: 10px;
+    color: #fff;
+    background-color:transparent;
+    border-radius: 5px;
+}
+
+/* Sign In button */
+
+.container .head button{
+    font-family: 'Gabarito'; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:32px;
+    width: 79px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #E50914;
+    font-size: 16px;
+    border: #E50914;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* main middle content */
+
+.container .content{
+    margin-top: 30px;
+    text-align: center;
+    padding: 10%;
+    color: #ffffff;
+    line-height: 4rem;
+}
+
+.container .content h1{
+    font-family: 'Gabarito';
+    font-size: 3.2rem;
+    font-weight: 900;
+}
+
+.container .content .p{
+    font-family: 'Gabarito';
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+.container .content p{
+    font-family: 'Gabarito', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+}
+
+/* Email input */
+
+.container .content input{
+    height:56px;
+    padding:22px;
+    width:400px;
+    max-width: 90%;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 4px;
+}
+
+/* For Email placeholder */
+
+::placeholder{
+    color: #fff;
+}
+
+.content div{
+    display: flex;
+    justify-content: center;
+}
+
+.container .content button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:56px;
+    width: 209px;
+    margin-left: 10px;
+    font-family: 'Gabarito', cursive;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    background-color: #E50914;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: #E50914;
+    border-radius: 4px;
+}
+
+/* Video Section */
+
+.section{
+    width: 100%;
+    height: 60vh;
+    background-color: #000;
+    border-top: 7px solid #232323;
+    border-bottom: 7px solid #232323;
+}
+
+.cont{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont .text{
+   color: #fff;
+   padding: 0 10%;
+   line-height: 2rem; 
+}
+
+.text h1{
+    font-family: 'Gabarito';
+    font-size: 2.5rem;
+    padding:10px 0;
+}
+
+.text p{
+    font-family: 'Gabarito', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+}
+
+/* Image & text */
+.section2{
+    width:100%;
+    height: 70vh;
+    background-color: #000;
+    border-bottom: 7px solid #232323;
+}
+.cont2{
+    width:80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cont2 .text2{
+    max-width:100%;
+    color: #fff;
+    padding-right: 10%;
+    line-height: 2rem;
+}
+
+.text2 h1{
+    font-family: 'Gabarito';
+    font-size: 2.5rem;
+    line-height: 3.2rem;
+    padding: 5px 0;
+}
+
+.text2 p{
+    font-family: 'Gabarito', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+}
+
+.cont2 .img2 img{
+    width: 550px;
+    max-width: 100%;
+}
+
+/* FAQ Section from W3-School */
+.accordion {
+    font-family: 'Gabarito', cursive;
+    font-family: 'Roboto', sans-serif;
+    background-color: #2d2d2d;
+    color: #fff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 26px;
+    transition: 0.4s;
+    margin-top: 7px;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #2d2d2d; 
+  }
+  
+  .panel {
+    font-family: 'Gabarito', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    padding: 9px 18px 9px 18px;
+    display: none;
+    color: #fff;
+    background-color: #2d2d2d;
+    overflow: hidden;
+  }
+
+  /* faq */
+
+.faq{
+    width: 70%;
+    margin: auto;
+    padding: 40px;
+}
+
+.faq h1{
+    font-family: 'Gabarito', cursive;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+  /* faq input Section */
+
+  .faq .text{
+    text-align: center;
+    padding: 30px 0;
+  }
+
+  .faq .text .bottom-email{
+    display: flex;;
+    justify-content: center;
+  }
+
+  .faq .text input{
+    height:56px;
+    padding:22px;
+    width:400px;
+    max-width: 90%;
+    background-color:transparent;
+    border-color:#FFFCEC;
+    color: #fff;
+    border-radius: 4px;
+}
+
+::placeholder{
+    color: #fff;
+}
+
+.faq .text button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:56px;
+    width: 209px;
+    margin-left: 10px;
+    font-family: 'Gabarito', cursive;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    background-color: #E50914;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: #E50914;
+    border-radius: 4px;
+  }
+
+ .faq .text p{
+    font-family: 'Gabarito', cursive;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    padding-bottom:20px;
+ } 
+
+ /* Footer */
+ .footer{
+    font-family: 'Gabarito', cursive;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    border-top: 7px solid #232323;
+    padding: 50px;
+ }
+
+ .footer .inner-section{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    line-height: 30px;
+    color:#fff
+ }
+
+ .footer .up{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    margin-left: 140px;
+    margin-bottom: 20px;
+ }
+
+ .footer .up1{
+    color: #fff;
+ }
+
+.footer .inner-section .first a,
+.footer .inner-section .second a,
+.footer .inner-section .third a,
+.footer .inner-section .fourth a{
+    font-size: 1rem;
+    color: #fff;
+}
+
+.footer{
+    color: #fff;
+}
+
+/* language button */
+
+.footer .bottom-language{
+    margin:20px 0 0 140px;
+}
+
+.footer .bottom-language select{
+    width: 127px;
+    height: 32px;
+    margin-right: 10px;
+    color: #fff;
+    background-color:transparent;
+    border-radius: 5px; 
+}
